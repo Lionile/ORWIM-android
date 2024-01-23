@@ -81,7 +81,7 @@ fun RoomScreen(
             item{
                 RoomTopBar(room = rooms[roomId], showDialog)
                 DeviceList(devices = rooms[roomId].devices, navigation = navigation, roomId = roomId){clickedIndex ->
-                    // TODO: navigate to device details
+                    navigation.navigate(Routes.getDeviceDetailsPath(roomId, clickedIndex))
                 }
             }
         }
