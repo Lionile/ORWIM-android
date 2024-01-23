@@ -5,20 +5,16 @@ import android.graphics.Bitmap
 import android.graphics.ImageDecoder
 import android.net.Uri
 import android.os.Build
-import android.os.Handler
 import android.provider.MediaStore
 import android.util.Log
 import android.widget.Toast
-import androidx.activity.viewModels
 import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.ViewModel
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
 import com.google.firebase.storage.StorageReference
 import com.google.firebase.storage.storage
-import hr.ferit.leonmaderic.iotech.ui.theme.getFileNameFromUri
+import hr.ferit.leonmaderic.iotech.ui.getFileNameFromUri
 import java.io.ByteArrayOutputStream
 
 class RoomViewModel: ViewModel(){

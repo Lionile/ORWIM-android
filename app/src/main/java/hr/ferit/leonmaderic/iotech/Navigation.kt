@@ -10,8 +10,8 @@ import hr.ferit.leonmaderic.iotech.data.DeviceViewModel
 import hr.ferit.leonmaderic.iotech.data.RoomViewModel
 import hr.ferit.leonmaderic.iotech.ui.HomeScreen
 import hr.ferit.leonmaderic.iotech.ui.RoomScreen
-import hr.ferit.leonmaderic.iotech.ui.theme.AddDeviceScreen
-import hr.ferit.leonmaderic.iotech.ui.theme.AddRoomScreen
+import hr.ferit.leonmaderic.iotech.ui.AddDeviceScreen
+import hr.ferit.leonmaderic.iotech.ui.AddRoomScreen
 
 object Routes {
     const val SCREEN_ALL_ROOMS = "rooms"

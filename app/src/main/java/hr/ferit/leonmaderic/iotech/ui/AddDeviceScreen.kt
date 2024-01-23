@@ -1,25 +1,17 @@
-package hr.ferit.leonmaderic.iotech.ui.theme
+package hr.ferit.leonmaderic.iotech.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.Button
-import androidx.compose.material3.DropdownMenu
-import androidx.compose.material3.DropdownMenuItem
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -40,11 +32,6 @@ import hr.ferit.leonmaderic.iotech.R
 import hr.ferit.leonmaderic.iotech.data.Device
 import hr.ferit.leonmaderic.iotech.data.DeviceViewModel
 import hr.ferit.leonmaderic.iotech.data.RoomViewModel
-import hr.ferit.leonmaderic.iotech.ui.DeviceCard
-import hr.ferit.leonmaderic.iotech.ui.DeviceList
-import hr.ferit.leonmaderic.iotech.ui.RoomTopBar
-import hr.ferit.leonmaderic.iotech.ui.TopBar
-import java.time.format.TextStyle
 
 
 @Composable
